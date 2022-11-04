@@ -1,0 +1,189 @@
+.pricelist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1150px;
+    min-height: 635px;
+    background: #E5E5E5;
+    margin: 0 auto;
+    padding-bottom: 104px;
+    .price {
+        color: #0D386B;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .seals {
+        margin: 10px;
+        width: 840px;
+        height: 310px;
+        background: #FFFFFF;
+        position: relative;
+        .wrapper-for-header {
+        display: grid;
+        grid-template-columns: 70px 230px 150px 115px;
+        grid-template-rows: 110px;
+        align-items: end;
+        div {
+            color:#0D386B;
+            font-size: 24px;
+            position: relative;
+            bottom: 15px;
+            left: 5px;
+            font-weight: bold;
+        }
+        .days {
+            span {
+                color: #59697A;
+                font-size: 14px;
+                position: relative;
+                bottom: 3px;
+                left: 5px;
+            }
+        }
+        .second {
+            grid-column: 4/6;
+        }
+        }
+        .wrapper-for-subheader {
+           grid-column-gap: 50px;
+            margin-left: 45px;
+            display: grid;
+            grid-template-columns: 126px 57px 66px 125px 62px 66px;
+            grid-template-rows: 50px 50px 50px;
+            align-items: end;
+            position: relative;
+            .print, .print-sec, .print-th {
+                color: #5C7C8D;
+                font-size: 16px;
+            }
+            .ottisk {
+                position: relative;
+                left: -80px !important;
+                width: 209px !important;
+            }
+            .price {
+                align-self: center;
+            }
+            .price, .price-sec, .price-th {
+                color: #FF640D;
+                font-size: 20px;
+                justify-self: right;
+                font-weight: bold;
+            }
+            .divider {
+                width: 206px;
+                height: 1px;
+                background: #B7CFDC;
+                position: relative;
+                right: 76px;
+            }
+            .divider-sec {
+                width: 155px;
+                height: 1px;
+                background: #B7CFDC;
+                position: relative;
+                left: 13px;
+            }
+            .divider-th {
+                width: 172px;
+                height: 1px;
+                background: #B7CFDC;
+                position: relative;
+                right: 46px;
+            }
+            .third, .fourth {
+                width: 200px;
+                right: 91px;
+            }
+            
+        }
+    }
+    .stamps {
+        margin: 10px;
+        width: 840px;
+        height: 310px;
+        background: #FFFFFF;
+        position: relative;
+        .wrapper-for-header {
+        display: grid;
+        grid-template-columns: 95px 212px 150px 115px;
+        grid-template-rows: 110px;
+        align-items: end;
+        div {
+            color:#0D386B;
+            font-size: 24px;
+            position: relative;
+            bottom: 15px;
+            left: 5px;
+            font-weight: bold;
+        }
+        .days {
+            span {
+                color: #59697A;
+                font-size: 14px;
+                position: relative;
+                bottom: 3px;
+                left: 5px;
+            }
+        }
+        .second {
+            grid-column: 4/6;
+        }
+        }
+        .wrapper-for-subheader {
+           grid-column-gap: 50px;
+            margin-left: 45px;
+            display: grid;
+            grid-template-columns: 126px 57px 66px 125px 62px 66px;
+            grid-template-rows: 50px 50px 50px;
+            align-items: end;
+            position: relative;
+            .print, .print-sec, .print-th {
+                color: #5C7C8D;
+                font-size: 16px;
+            }
+            .ottisk {
+                position: relative;
+                left: -107px !important;
+                width: 236px !important;
+            }
+            .price {
+                align-self: center;
+            }
+            .price, .price-sec, .price-th {
+                color: #FF640D;
+                font-size: 20px;
+                justify-self: right;
+                font-weight: bold;
+            }
+            .divider {
+                width: 206px;
+                height: 1px;
+                background: #B7CFDC;
+                position: relative;
+                right: 76px;
+            }
+            .divider-sec {
+                width: 155px;
+                height: 1px;
+                background: #B7CFDC;
+                position: relative;
+                left: 13px;
+            }
+            .divider-th {
+                width: 241px;
+                height: 1px;
+                background: #B7CFDC;
+                position: relative;
+                right: 106px;
+            }
+            .third, .fourth {
+                width: 200px;
+                right: 91px;
+            }
+            
+        }   }
+}

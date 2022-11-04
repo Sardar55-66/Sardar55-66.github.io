@@ -1,0 +1,39 @@
+.hamburger-menu {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    visibility: hidden;
+    z-index: 9999;
+    span {
+        position: relative;
+        width: 45px;
+        height: 3px;
+        margin: 3px;
+        background: black; 
+        transition: 0.6s all;      
+    }
+    .activeFirst {
+        transform: rotate(45deg);
+        top: 17px;
+        background: white;
+    }
+    .activeSec {
+        visibility: hidden;
+        transform: rotate(360deg);
+    }
+    .activeLast {
+        transform: rotate(-45deg);
+        background: white;
+    }
+    .first {
+        top: 0;
+        transform: rotate(0deg);
+    }
+    .second {
+        display: block;;
+    }
+    .last {
+        transform: rotate(0deg);
+    }
+}

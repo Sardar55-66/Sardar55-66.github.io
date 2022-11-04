@@ -1,0 +1,49 @@
+.modal-window {
+    display: none;
+    position: relative;
+    z-index: 999;
+    background-blend-mode: multiply;
+    background: url('../img/stamps.jpg') no-repeat;
+    background-color: #1f1d1a;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    bottom: 10em;
+    .contacts-wrapper {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        .contacts__logo {
+            .station {
+                vertical-align: super;
+            }
+        }
+        .contacts__map {
+            button {
+                background: rgb(209 208 221 / 64%);
+            }
+        }
+        .contact {
+            margin: 5px;
+        }
+    }
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-menu li, a {
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 5px;
+    }
+}
+.inactive {
+    display: none;
+}

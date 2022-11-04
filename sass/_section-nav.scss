@@ -1,0 +1,26 @@
+.nav {
+    display: block;
+    margin: 0 auto;
+    margin: 0 auto;
+    max-width: 1150px;
+    height: 30px;    
+    
+ .nav-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    .nav-li {
+        transition: 0.5s all;
+        a {
+            text-decoration: none;
+            color:black;
+        }
+        a:hover {
+            color:#0068C7;
+        }
+    }
+    .nav-li:hover {
+        transform: scale(1.2);
+    }
+    }
+}

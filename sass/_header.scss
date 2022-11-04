@@ -1,0 +1,75 @@
+.header {
+    display: block;
+    margin: 0 auto;
+    max-width: 1150px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    .header__logo-and-descr {
+        display: flex;
+        align-items: center;
+        .header__descr span {
+            font-size: 25px;
+            font-weight: bold;
+            color: #0068C7;
+            text-transform: uppercase;
+        }
+        .header__descr {
+            color: #0068C7;
+        }
+    }
+    .contacts {
+        display: grid;
+        grid-template-columns: 25px 105px 150px 50px;
+        grid-template-rows: 35px;
+        align-content: center;
+        
+        &__logo {
+            display: inline-block;
+            width: 84px;
+            height: 83px;
+            
+        }
+        &__dial {
+            img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            }
+            img:hover {
+                transition: 0.7s all;
+                transform: scale(1.2);
+                transform: rotate(45deg);
+                
+                cursor: pointer;
+            }
+            img:active {
+                transition: 0.3s all;
+                transform: rotate(180deg);
+            }
+        }
+        &__number {
+           grid-column: 1/4;
+            a {
+                color: black;
+                // font-weight: bold;
+                font-size: 24px;
+                transition: 0.5s all;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #0068C7;
+            }
+        }
+        &__station {
+            font-weight: bold;
+            margin-top: 3px;
+        }
+        &__map>button {
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }        
+    }
+
+}

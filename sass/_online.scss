@@ -1,0 +1,125 @@
+.online {
+    display: block;
+    max-width: 1150px;
+    height: 1500px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    .main-wrapper {
+        display: block;
+        width: 1500px;
+        height: 1300px;
+        position: relative;
+        background: #C4C4C4;
+        z-index: 10;
+        border-radius: 0 0 50% 50%;
+        margin: 0 auto;
+    .your-order {
+        // display: grid;
+        // grid-template-columns: 50px 50px 50px;
+        // grid-template-rows: 50px 50px 50px;
+        background: #FFFFFF;
+        width: 825px;
+        height: 370px;
+        margin-left: 11em;
+        .title {
+            color: #636363;
+            font-size: 24px;
+            position: relative;
+            left: 20px;
+            top: 50px;
+        }  
+        .content {
+            display: flex;
+            padding-top: 80px;
+            margin: 0 auto;
+            justify-content: space-around;
+            .seal {
+                border: 1px silver solid;
+                width: 230px;
+                height: 230px;
+                text-align: center;
+                img {
+                    margin-bottom: 15px;
+                }
+                .seal-input {
+                    display: inline-block;
+                    float: left;
+                    position: relative;
+                    left: 75px;
+                }
+                label {
+                    display: inline-block;
+                }
+            }
+            .stamp {
+                border: 1px silver solid;
+                width: 230px;
+                height: 230px;
+                text-align: center;
+                img {
+                    margin-bottom: 30px;
+                }
+                .seal-input {
+                    display: inline-block;
+                    float: left;
+                    position: relative;
+                    left: 75px;
+                }
+                label {
+                    display: inline-block;
+                }
+                
+            }
+            .fax {
+                border: 1px silver solid;
+                width: 230px;
+                height: 230px;
+                text-align: center;
+                img {
+                    margin-left: 15px;
+                }
+                .seal-input {
+                    display: inline-block;
+                    float: left;
+                    position: relative;
+                    left: 75px;
+                    top: 22px;
+                }
+                label {
+                    display: inline-block;
+                    position: relative;
+                    top: 22px;
+                    left: 10px;
+                }
+                
+            }
+        }
+     }
+    }
+    .ring {
+        display: block;
+        width: 1500px;
+        height: 1275px;
+        position: relative;
+        background: #FFFFFF;
+        border: 30px #C4C4C4 solid;
+        z-index: 1;
+        border-radius: 0 0 47% 49%;
+        bottom: 78em;
+        right: 4em;
+    }
+    .order {
+        color: #0D386B;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        font-weight: bold;
+        background: #C4C4C4;
+        min-height: 70px;
+        padding-top: 35px;
+    }
+}

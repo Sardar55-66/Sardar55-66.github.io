@@ -1,0 +1,19 @@
+@import 'header';
+@import 'section-nav';
+@import 'hamburger';
+@import 'modal';
+@import 'order-information';
+@import 'pricelist';
+@import 'popular-goods';
+@import 'online';
+@import 'current-order';
+@import 'footer';
+@import 'media';
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 0;
+    position: relative;
+}

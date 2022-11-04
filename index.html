@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/main.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header class="header">
+       
+        <div class="header__logo-and-descr">
+            <div class="header__logo"><img src="img/logo-stamp.png" alt="stamp-logo"></div>
+            <div class="header__descr"><span id="stamp">на печать</span> <br> изготовление печатей и штампов</div>
+        </div>
+
+        <div class="hamburger-menu">
+            <span class="first"></span>
+            <span class="second"></span>
+            <span class="last"></span>
+        </div>
+
+        <div class="contacts">
+            <div class="contacts__logo"><img src="img/m-sign.png" alt="subway-logo"></div>
+            <div class="contacts__station">Бухарестская</div>
+            <div class="contacts__map"><button>Карта<span>></span></button></div>
+            <div class="contacts__dial"><img src="img/phone-logo.png" alt="phone"></div>
+
+            <!-- <div class="contacts-address"></div> -->
+            <div class="contacts__number"><a href="#">+7(981)-932-56-47</a></div>
+            
+        </div>
+    </header>
+
+    <section class="nav">
+        
+        <ul class="nav-menu">
+            <li class="nav-menu__prices nav-li"><a href="#">Цены</a></li>
+            <li class="nav-menu__order nav-li"><a href="#">Сделать заказ</a></li>
+            <li class="nav-menu__delivery nav-li"><a href="#">Доставка</a></li>
+            <li class="nav-menu__contacts nav-li"><a href="#">Контакты</a></li>
+            <li class="nav-menu__gross nav-li"><a href="#">Оптовая продажа</a></li>
+        </ul>
+    </section>
+
+    <section class="inactive">
+        <div class="contacts-wrapper">
+         <div class="contacts__logo contact"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 64 64" height="25px" id="Layer_1" version="1.1" viewBox="0 0 64 64" width="25px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M32.105,36h-0.211L24.259,7H1v8h2.383C4.363,15,6,16.004,6,16.846v30.473C6,48.16,4.363,49,3.383,49H1v8    h19v-8h-5V17h0.223L25.94,57h8.406l10.859-40H45v32h-4v8h22v-8h-2.452C59.639,49,58,48.16,58,47.318V16.846    C58,16.004,59.639,15,60.548,15H63V7H39.812L32.105,36z" fill="#dbd8d3"/></g><g><path d="M15,19.802c-3-0.577-7-1.321-9-2.202v29.719C6,48.16,4.363,49,3.383,49H1v8h19v-8h-5V19.802z" fill="#96b0b5"/><path d="M58,47.318V17.6c-4,1.193-8,2.13-13,2.75V49h-4v8h22v-8h-2.452C59.639,49,58,48.16,58,47.318z" fill="#b3b3c9"/><path d="M36.103,21.195L32.105,36h-0.211l-3.96-14.805c-4.192-0.157-8.076-0.34-11.842-0.948L25.94,57h8.406    l9.837-36.251C41.541,21.066,38.928,21.088,36.103,21.195z" fill="#45687F"/></g><g><path d="M15,29.889c-3-0.812-7-1.857-9-3.099v20.528C6,48.16,4.363,49,3.383,49H1v8h19v-8h-5V29.889z"/><path d="M33.196,31.915L32.105,36h-0.211l-1.08-4.085c-4.145-0.063-8.047-0.171-11.823-0.852L25.94,57h8.406l6.927-25.527    C38.644,31.799,35.98,31.873,33.196,31.915z"/><path d="M58,47.318V26.789c-3,1.678-8,2.997-13,3.869V49h-4v8h22v-8h-2.452C59.639,49,58,48.16,58,47.318z"/></g></g></svg><span class="station">Бухарестская</span></div>
+                <div class="contacts__map contact"><button>Карта<span>></span></button></div>
+                
+
+            <!-- <div class="contacts-address"></div> -->
+            <div class="contacts__number contact"><a href="#">+7(999)-999-99-99</a></div>
+        </div>
+        <ul class="nav-menu">
+            <li class="prices nav-li"><a href="#">Цены</a></li>
+                <li class="order nav-li"><a href="#">Сделать заказ</a></li>
+                    <li class="delivery nav-li"><a href="#">Доставка</a></li>
+                <li class="contacts nav-li"><a href="#">Контакты</a></li>
+            <li class="gross nav-li"><a href="#">Оптовая покупка</a></li>
+        </ul>
+
+    </section>
+
+
+    <section class="order-information">
+
+        <div class="fast-order">
+            <span class="order">Быстрая заявка</span>
+            <!-- Здесь инпут -->
+            <label for="number">Номер телефона</label>
+            <input type="tel" id="number">
+            <button type="button" class="call-button">Перезвоните мне!</button>
+        </div>
+
+        <div class="company-info">
+            <div class="order price"><img src="img/first-logo-hands.png" alt="hands"></div>
+            <div class="text">Заказ печатей <br> от 290р</div>
+            <div class="order time"><img src="img/second-logo-clock.png" alt="clock"></div>
+            <div class="text">Изготовление <br> за 1 час</div>
+            <div class="order delivery"><img src="img/third-logo-car.png" alt="truck"></div>
+            <div class="text">Оперативная доставка по Москве</div>
+        </div>
+        
+        <div class="first stamp"><img src="img/stamp-for-order-section1.png" alt="first-stamp"></div>
+        <div class="second stamp"><img src="img/stamp-for-order-section2.png" alt="second-stamp"></div>
+
+        <div class="order-now"><span>Заказать <br> сейчас!</span></div>
+    </section>
+
+
+
+    <section class="pricelist">
+        <div class="price">Цена</div>
+
+
+        <div class="seals">
+
+            <div class="wrapper-for-header">
+            <img src="img/seal-for-3d-section.png" alt="logo">
+            <div>Печати</div>
+            
+            <div class="days"><img src="img/clock-for-seals-stamps-section3.png" alt="clock"><span>1 день</span></div>
+            <div class="days second"><img src="img/clock-for-seals-stamps-section3.png" alt="clock"><span>1-2 часа</span></div>
+            </div>
+
+            <div class="wrapper-for-subheader">
+                <div class="print">Новая печать</div>
+                <div class="divider"></div>
+                <div class="price">290p</div>
+
+                <div class="print-sec">Новая печать</div>
+                <div class="divider-sec ottisk"></div>
+                <div class="price-sec">500p</div>
+
+                <div class="print-th">Печать по оттиску</div>
+                <div class="divider-th"></div>
+                <div class="price-th">390p</div>
+
+                
+
+                <div class="print-th">Печать по оттиску</div>
+                <div class="divider-th"></div>
+                <div class="price-th">от 590p</div>
+
+                <div class="print-th">Факсимиле</div>
+                <div class="divider-th third"></div>
+                <div class="price-th">от 590p</div>
+
+                <div class="print-th">Факсимиле</div>
+                <div class="divider-th fourth"></div>
+                <div class="price-th">от 590p</div>
+            </div>
+            
+        </div>
+    
+
+
+
+        <div class="stamps">
+            
+
+            <div class="wrapper-for-header">
+                <img src="img/stamp-for-3d-section.png" alt="logo">
+                <div>Штампы</div>
+                
+                <div class="days"><img src="img/clock-for-seals-stamps-section3.png" alt="clock"><span>1 день</span></div>
+                <div class="days second"><img src="img/clock-for-seals-stamps-section3.png" alt="clock"><span>1-2 часа</span></div>
+                </div>
+    
+                <div class="wrapper-for-subheader"> <!-- первый ряд первой колонки -->
+                    <div class="print">20х40мм</div>
+                    <div class="divider"></div>
+                    <div class="price">290p</div>
+                    
+                    <div class="print-sec">20х40мм</div> <!-- первый ряд второй колонки -->
+                    <div class="divider-sec ottisk"></div>
+                    <div class="price-sec">500p</div>
+    
+                    <div class="print-th">30х50мм</div> <!-- второй ряд первой колонки колонки -->
+                    <div class="divider-th"></div>
+                    <div class="price-th">400p</div>
+    
+                    
+    
+                    <div class="print-th">30х50мм</div> <!-- второй ряд второй колонки -->
+                    <div class="divider-th"></div>
+                    <div class="price-th">790p</div>
+    
+                    <div class="print-th">60х100мм</div> <!-- третий ряд первой колонки -->
+                    <div class="divider-th third"></div>
+                    <div class="price-th">600p</div>
+    
+                    <div class="print-th">60х100мм</div> <!-- третий ряд второй колонки -->
+                    <div class="divider-th fourth"></div>
+                    <div class="price-th">1200p</div>
+                </div>
+    </section>
+
+
+
+
+
+    <section class="popular-goods">
+
+        <div class="popular-items">популярные товары</div>
+        <div class="stamps"><img src="img/three-stamps-for-4section.png" alt="stamps"></div>
+
+        <div class="pocket-stamp first">
+            <div class="pocket firsttext">Карманная печать</div>
+            <div class="sub">550ppi новая</div>
+            <div class="sub2">770ppi по оттиску</div>
+        </div>
+
+        <div class="automatic-stamp">
+            <div class="automatic thirdtext">Автоматическая печать</div>
+            <div class="sub">550ppi новая</div>
+            <div class="sub2">770ppi по оттиску</div>
+        </div>
+
+        <div class="pocket-stamp second">
+            <div class="pocket sectext">Карманная печать</div>
+            <div class="sub">550ppi новая</div>
+            <div class="sub2">770ppi по оттиску</div>
+        </div>
+
+    </section>
+
+
+    <section class="online">
+        <div class="order">Онлайн Заказ</div>
+        <div class="main-wrapper">
+            <div class="your-order">
+                <div class="title">Выберите вид печати</div>
+                <div class="content">
+                    <div class="seal"><img src="img/seal-type.png" alt="seal">
+                    <label for="rado">Печать</label>
+                    <input type="radio" class="seal-input" id="rado">
+                    </div>
+                    <div class="stamp"><img src="img/stamp-type.png" alt="stamp">
+                        <label for="rado">Штамп</label>
+                        <input type="radio" class="seal-input" id="rado">
+                    </div>
+                    <div class="fax"><img src="img/fax-type.png" alt="fax">
+                        <label for="rado">Факсимиле</label>
+                        <input type="radio" class="seal-input" id="rado">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ring"></div>
+       
+    </section>
+
+    <footer class="footer">
+       
+        <div class="footer-and-descr">
+            <div class="footer__logo"><img src="img/logo-stamp.png" alt="stamp-logo"></div>
+            <div class="footer__descr"><span id="stamp">на печать</span> <br> изготовление печатей и штампов</div>
+        </div>
+       
+        
+        
+
+    </footer>
+
+
+    <section class="nav foot-menu">
+        
+        <ul class="nav-menu foot">
+            <li class="nav-menu__prices nav-li"><a href="#">Цены</a></li>
+            <li class="nav-menu__order nav-li"><a href="#">Сделать заказ</a></li>
+            <li class="nav-menu__delivery nav-li"><a href="#">Доставка</a></li>
+            <li class="nav-menu__contacts nav-li"><a href="#">Контакты</a></li>
+            <li class="nav-menu__gross nav-li"><a href="#">Оптовая продажа</a></li>
+        </ul>
+    </section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../src/js/jquery-3.6.0.min.js"></script>
+<script src="dist/inputmask.js"></script>
+<script src="../src/js/main.js"></script>
+</body>
+</html>
+
+

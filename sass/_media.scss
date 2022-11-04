@@ -1,0 +1,182 @@
+@media (max-width: 768px) {
+.header {
+    width: 1075px;
+    .contacts {
+        grid-template-columns: 25px 105px 95px 75px;
+        &__number {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+.order-information {
+    width: 1075px;
+    min-height: 865px;
+    .company-info {
+        top: 34em;
+    }
+    .first {
+        bottom: 11em;
+    }
+    .order-now {
+        right: 135px;
+    }
+}
+.pricelist {
+    width: 1075px;
+}
+.popular-goods {
+    width: 1075px;
+}
+.nav {
+    width: 1075px;
+}
+.online {
+    width: 1075px;
+}
+}
+
+@media (max-width: 425px) {
+    .header {
+        .header__logo-and-descr {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 40px;
+            .header__descr {
+                #stamp {
+                    font-size: 30px;
+                }
+            }
+        }
+        .contacts {
+            display: none;
+            grid-template-columns: 20px 50px;
+            grid-template-rows: 20px 50px;
+            &__number {
+                a {
+                    font-size: 20px;
+                }
+            }
+            &__dial {
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+        .hamburger-menu {
+            visibility: visible;
+            right: 6em;
+            top: 3em;
+        }
+    }
+    .nav {
+        .nav-menu {
+            display: none;
+        }
+    }
+    .modal-window {
+        display: block;
+        width: 63em;
+        bottom: 10em;
+        height: 25em;
+    }
+    .order-information {
+        margin-top: 30px;
+        .stamp {
+            display: none;
+        }
+        .fast-order {
+            left: 35px;
+            width: 360px;
+            height: 360px;
+        }
+        .company-info {
+            width: 400px;
+            right: 10em;
+        }
+        .order-now {
+            right: 40em;
+        }
+    }
+
+    .pricelist {
+        width: 1020px;
+    }
+    .popular-goods {
+        .second {
+            left: 42em;
+        }
+    }
+    .online {
+        width: 1020px;
+        .main-wrapper {
+            .your-order {
+                margin-left: 5em;
+            }
+        }
+    }
+    .foot-menu > .foot {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 100px;
+    }
+}
+@media (max-width: 375px) {
+    .order-information {
+        .company-info {
+            right: 10em;
+            width: 350px;
+        }
+        .fast-order {
+            left: 17px;
+            width: 345px;
+            height: 345px;
+        }
+    }
+    .hamburger-menu {
+        bottom: 0;
+    }
+    .modal-window {
+        width: 65em;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        .header__logo-and-descr {
+            .header__descr {
+                #stamp {
+                    font-size: 33px;
+                }
+            }
+        }
+    }
+    .order-information {
+        .company-info {
+            right: 10em;
+            width: 288px;
+        }
+        .fast-order {
+            left: 17px;
+            width: 290px;
+            height: 290px;
+            .order {
+                bottom: 1em;
+            }
+        }
+        .order-now {
+            right: 40em;
+        }
+    }
+    .hamburger-menu {
+        bottom: 0;
+    }
+    .modal-window {
+        width: 65em;
+    }
+    .footer {
+        margin-left: 50px;
+    }
+}
